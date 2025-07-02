@@ -16,7 +16,7 @@
 		        System.out.print("Enter city name: ");
 		        String city = scanner.nextLine();
 
-		        String apiKey = "YOUR_API_KEY"; // Replace with your OpenWeatherMap API Key
+		        String apiKey = "5c40958ec9700fa7eb0944fbdfc6c55d"; 
 		        String urlString = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + apiKey + "&units=metric";
 
 		        try {
